@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/doces.css">
+  <link src="/index.js">
+  <title>Vitrine</title>
+</head>
+
+<header>
+  <ul class="nav-bar">
+    <li><a class="active" href="/Doces.html/doces.html">Doces do Samuka</a></li>
+    <li><a href="/Doces.html/doces.html">Início</a></li>
+    <li><a href="/Doces.html/doces.html">Contatos</a></li>
+  </ul>
+</header>
+<main>
+  <h1 class="promo">Aproveite: sua promoção termina em <div class="promo" id="count"></div>
+  </h1>
+
+  <div class="container">
+  </div>
+  <script src="/js/index.js"></script>
+</main>
+
+<body>
+  <br><br>
+  <div class="vit">
+  <h1 class="vit">Vitrine de Produtos</h1>
+</div>
+  <div class="container-vitrine">
+    <div class="item-vitrine">
+      <img class="produto" src="/img/Amendoim.webp" alt="goibinha de Amendoim" class="container-vitrine">
+    </div>
+    <div class="item-vitrine">
+      <img class="produto" src="/img//Casadogoiaba.webp" alt="goibinha de Amendoim" class="container-vitrine">
+    </div>
+    <div class="item-vitrine">
+      <img class="produto" src="/img//Palmiergourmet.webp" alt="goibinha de Amendoim" class="container-vitrine">
+    </div>
+    <div class="item-vitrine">
+      <img class="produto" src="/img//Sequilhocondesado.webp" alt="goibinha de Amendoim" class="container-vitrine">
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="card green">
+      <img class="image" src="/img//Fatiandodoce.webp" alt="doce de goiabada" />
+      <h2>Doce de goiabada</h2>
+      <a href="#" style="text-decoration:none">Detalhes</a>
+    </div>
+
+    <div class="card blue">
+      <img class="image" src="/img//Merengue.webp" alt="doce de um Merengue" />
+      <h2>Merengue</h2>
+      <a href="#" style="text-decoration:none">Detalhes</a>
+    </div>
+
+    <div class="card red">
+      <img class="image" src="/img//Nevada.webp" alt="doce nevada" />
+      <h2>Nevada</h2>
+      <a href="#" style="text-decoration:none">Detalhes</a>
+    </div>
+
+    <div class="card red">
+      <img class="image" src="/img//Sequilhocondesado.webp" alt="Sequilho condesado" />
+      <h2>Sequilhos</h2>
+      <a href="#" style="text-decoration:none">Detalhes</a>
+    </div>
+  </div>
+
+  <div>
+    <img class="tarja" alt="" src="/img//tarja_desk.jpg">
+  </div>
+
+
+  <div id="area">
+    <form method="post" onSubmit="return form_simples(this)">
+      <h2>Receber promoções</h2>
+
+      <input type="text" placeholder="Samuel" name="Nome" size="50" alt="yes" />
+      <label class="Nome" for="nome">Nome</label>
+
+      <input type="email" class="email" placeholder="fulano@mail.com" name="email" size="50" alt="yes" />
+      <label class="email" for="email">Email</label>
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+    </fieldset>
+    <footer id="rodape">
+      <p>&copy; Tudo </p>
+      <fieldset>
+        <legend>Termo de uso</legend>
+        <div>
+          <input type="checkbox" id="scales" name="Sim" checked>
+          <label for="scales">Sim</label>
+        </div>
+        <div>
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">Não</label>
+        </div><br>
+        <div>
+          <input type="submit" class="enviar" name="Enviar">
+        </div>
+      </fieldset>
+    </footer>
+  </div>
+</body>
+
+</html>
